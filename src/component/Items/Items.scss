@@ -1,0 +1,19 @@
+
+  .Item-list{
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  .Item-list:hover {
+    transform: scale(1.05);
+  }
+  img{
+    height: 250px;
+    width: 200px;
+  }
+  

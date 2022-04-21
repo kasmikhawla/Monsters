@@ -1,0 +1,44 @@
+@media only screen and (min-width: 1025px)  {
+.card{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  }
+}
+  .card-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .titre {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 70px;
+    color:#0CCac4
+  }
+  @media only screen and (max-width: 1024px) {
+    .card{
+      width: 90%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      grid-gap: 16px;
+      }
+  }
+  @media only screen and (min-width: 640px )and ( max-width: 800px) {
+    .card{
+      width: 90%;
+      display: grid;
+      grid-template-columns: 1fr 1fr  ;
+      grid-gap: 16px;
+      }
+  }
+  @media only screen and ( min-width: 300px) and (max-width : 640px){
+    .card{
+      width: 90%;
+      display: grid;
+      grid-template-columns: 1fr  ;
+      grid-gap: 16px;
+      }
+  }
